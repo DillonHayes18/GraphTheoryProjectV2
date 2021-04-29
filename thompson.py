@@ -173,19 +173,3 @@ if __name__ == "__main__":
         print(f"postfix: {postfix}")
         print(f"nfa:     {re_to_nfa(postfix)}")
         print()
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Loading complete
