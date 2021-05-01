@@ -1,35 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@DillonHayes18
-ianmcloughlin /
-graph-theory-python
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-graph-theory-python/met-eireann.txt
-@ianmcloughlin
-ianmcloughlin Some re
-Latest commit 92b9a53 on 26 Feb
-History
-1 contributor
-2234 lines (2234 sloc) 98.4 KB
 <weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.9/schema" created="2021-02-26T12:33:14Z">
 <meta>
 <model name="harmonie" termin="2021-02-26T06:00:00Z" runended="2021-02-26T09:25:23Z" nextrun="2021-02-26T16:00:00Z" from="2021-02-26T13:00:00Z" to="2021-02-28T12:00:00Z"/>

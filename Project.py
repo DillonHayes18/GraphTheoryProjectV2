@@ -7,10 +7,8 @@ parser.add_argument('filepath', metavar='path', type=str,
                     help='a filepath for the search')
 args = parser.parse_args()
 
-fd=open(args.filepath)
-for i, line in enumerate(fd):
-      print(line)
-
-fd.close()
-print(args.regexp)
-print(args.filepath)
+with open(args.filepath, 'r') as searchfile:
+    for line in searchfile:
+        if args.regexp in line:
+            print (line)
+searchfile.close()
