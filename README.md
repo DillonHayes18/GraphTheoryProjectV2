@@ -62,4 +62,14 @@ print line
 #   The user can use a compile method to query their search and then the matcher method for searching for the
 #   string and sending back the information about the search.
 #
-#   In Python however regular expressions work slightly different, 
+#   In Python however regular expressions are stored within the python RE library. This library contains the
+#   different functionality for the regular expressions such as the re objects, match objects and syntax. 
+#   The RE library allows the user to create a functioning regular expression search engine in a short time frame
+
+# Q: Can all formal languages be encoded as regular expressions?
+# A: Referenced from https://runestone.academy/runestone/books/published/thinkcspy/GeneralIntro/FormalandNaturalLanguages.html
+#   Formal languages are human made languages. They are designed for specific applications such as maths and 
+#   chemistry. Programming languages are formal languages as they were developed by people to perform computations.
+#   Formal languages are literal meaning they take the statements for how they are, they often tend to also be more #   to the point and less redundant and unambigious. 
+#   Formal languages are syntax that have no meaning, programming languages are syntax with meaning and regular #    expressions are used to define these languages by providing constructed syntax.
+#   Because of this formal languages can only be regular expressions if being deifned by one.
